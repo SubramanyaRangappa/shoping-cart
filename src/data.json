@@ -3,74 +3,73 @@
         {
             "_id": "dress1",
             "title": "Dress 1",
-            "image": "images/x.jpg",
+            "image": "images/dress55.jpg",
             "description": "about dress 1",
-            "price": 19,
+            "price": 29,
             "availablesizes": [
-                "x",
-                "l",
-                "xl",
-                "xxl"
+                "S",
+                "L",
+                "M",
+                "XL"
             ]
         },
         {
             "_id": "dress2",
             "title": "Dress 2",
-            "image": "images/white.jpg",
+            "image": "images/dress22.jpg",
             "description": "about dress 2",
-            "price": 19,
+            "price": 109,
             "availablesizes": [
-                "x",
-                "m",
-                "l"
+                "XS",
+                "XXL",
+                "L"
             ]
         },
         {
             "_id": "dress3",
             "title": "Dress 3",
-            "image": "images/x.jpg",
+            "image": "images/dress33.jpg",
             "description": "about dress 3",
-            "price": 19,
+            "price": 10,
             "availablesizes": [
-                "x",
-                "l",
-                "xl",
-                "xxl"
+                "M",
+                "S",
+                "XXL"
             ]
         },
         {
             "_id": "dress4",
             "title": "Dress 4",
-            "image": "images/white.jpg",
+            "image": "images/dress44.jpg",
             "description": "about dress 4",
-            "price": 19,
+            "price": 89,
             "availablesizes": [
-                "x",
-                "m",
-                "l"
+                "XL",
+                "S"
             ]
         },
         {
             "_id": "dress5",
             "title": "Dress 5",
-            "image": "images/x.jpg",
+            "image": "images/dress55.jpg",
             "description": "about dress 5",
-            "price": 19,
+            "price": 99,
             "availablesizes": [
-                "xl",
-                "xxl"
+                "XL",
+                "XXL",
+                "S"
             ]
         },
         {
             "_id": "dress6",
             "title": "Dress 6",
-            "image": "images/white.jpg",
+            "image": "images/dress66.jpg",
             "description": "about dress 6",
-            "price": 19,
+            "price": 49,
             "availablesizes": [
-                "x",
-                "m",
-                "l"
+                "M",
+                "L",
+                "XS"
             ]
         }
     ]
