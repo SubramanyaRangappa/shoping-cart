@@ -18,6 +18,8 @@ class App extends React.Component {
   }
 
   removeFromCartItem = (product) => {
+    // slice() method takes 2 parameters starting and ending array elements to be returned if nothing specified
+    // all the array elements can be replaced, initial array doesnot affect
     const cartItems = this.state.cartItems.slice();
     this.setState({
       cartItems:cartItems.filter(x=>x._id !== product._id)
@@ -25,6 +27,8 @@ class App extends React.Component {
     localStorage.setItem("cartItems", JSON.stringify(cartItems.filter(x=>x._id !== product._id)))
 
   }
+
+
 
   addToCart = (product) => {
     const cartItems = this.state.cartItems.slice();

@@ -6,14 +6,14 @@ class Filter extends Component {
             <div className="filter">
                 <div className="filter-result">{this.props.count} Products</div>
                 <div className="filter-sort">Order {" "}
-                    <select value={this.props.size} onChange={this.props.sortProducts}>
+                    <select value={this.props.sort} onChange={this.props.sortProducts}>
+                        <option value="latest">Latest</option>
                         <option value="highest">Highest</option>
                         <option value="lowest">Lowest</option>
-                        <option value="latest">Latest</option>
                     </select>
                 </div>
                 <div className="filter-size">Filter{" "}
-                    <select value={this.props.sort} onChange={this.props.filterProducts}>
+                    <select value={this.props.size} onChange={this.props.filterProducts}>
                         <option value="ALL">All</option>
                         <option value="XS">XS</option>
                         <option value="S">S</option>
